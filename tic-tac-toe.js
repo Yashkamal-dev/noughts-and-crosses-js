@@ -14,18 +14,14 @@ let pattern = [
   [0, 4, 8],
   [2, 4, 6],
 ];
-// console.log(pattern)
 
 let boxValue = [];
 
 let i = 0;
 
-// console.log(btn);
-
 //making reset function
 const resetFun = () => {
   for (let elmt of btn) {
-    // console.log(elmt);
     elmt.innerText = "";
     elmt.disabled = false;
   }
@@ -56,7 +52,6 @@ const checkWiser = () => {
   for (let ptn of pattern) {
     let x = "X";
     let o = "O";
-    // console.log(btn[ptn[0]], btn[ptn[1]], btn[ptn[2]]);
     if (
       btn[ptn[0]].innerText == x &&
       btn[ptn[1]].innerText == x &&
@@ -82,5 +77,4 @@ const checkWiser = () => {
 btn.forEach((box) => {
   boxValue[i] = box.innerText;
   i++;
-  // console.log(box.innerText);
 });
