@@ -38,9 +38,11 @@ btn.forEach((box) => {
   box.addEventListener("click", () => {
     if (turnX == true) {
       box.innerText = "X";
+      box.style.color = "rgba(190, 2, 115)"
       turnX = false;
     } else {
       box.innerText = "O";
+      box.style.color = "rgba(100, 38, 170)"
       turnX = true;
     }
     box.disabled = true;
