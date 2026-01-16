@@ -41,4 +41,4 @@ The application is designed to adapt seamlessly to different screen sizes, ensur
 
 ## Author
 
-**Yash (Yashkamal)**
+**Yashkamal**
